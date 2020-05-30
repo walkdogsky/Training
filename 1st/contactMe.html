@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./resources/contactMe.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <script src="./contactMe.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="header-col">
+        <div class="header">
+        <div id="links">
+            <nav>
+            <span>
+                <a href="home.html">Home</a>
+            </span>
+            <span >
+                <a href="">About me</a>
+            </span>
+            <span>
+                <a href="MyExperience.html">My experience</a>
+            </span>
+            <span>
+                <a href="contactMe.html">Contact me</a>
+            </span>
+            </nav>
+        </div>
+    </div>
+    <form method="POST" name="contact-form" action="contact-form-handler.php">
+        Your name:
+        <input type="text" name="=text">
+
+        Email Adress:
+        <input type="text" name="email">
+
+        Message:
+        <textarea name="message"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

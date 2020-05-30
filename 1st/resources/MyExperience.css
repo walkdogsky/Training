@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    background-image: url(./images/website-background-png-6.png);
+    font-size: 22px;
+    text-align: center;
+    background: url(./images/website-background-png-6.png);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 70px;
+    background-color: black;
+    border-bottom: 1px solid #69645a;
+    align-items: center;
+    opacity: 0.7;
+}
+
+span a {
+    text-decoration: none;
+    color: seashell;
+}
+
+embed {
+    padding-top: 70px;
+    
+}
